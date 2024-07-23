@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Packages
+*.egg
+*.egg-info/
+bin
+include
+lib
+lib64
+dist/
+build/
+
+# Pipenv
+.Python
+pip-log.txt
+Pipfile.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+dist/
+build/
+
+# Unit test / coverage reports
+.coverage
+.tox
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

@@ -1,0 +1,514 @@
+2024-07-23 01:56:22 - DEBUG - This is a debug message
+2024-07-23 01:56:22 - INFO - This is an info message
+2024-07-23 01:56:22 - WARNING - This is a warning message
+2024-07-23 01:56:22 - ERROR - This is an error message
+2024-07-23 01:56:22 - CRITICAL - This is a critical message
+2024-07-23 01:56:22 - INFO - Logging initialized.
+2024-07-23 01:57:43 - INFO - Logging initialized.
+2024-07-23 01:57:43 - INFO - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-23 01:57:43 - INFO - Sending API request:
+2024-07-23 01:57:43 - INFO - 1.0
+2024-07-23 01:57:43 - ERROR - Error executing API request: 'float' object has no attribute 'get'
+2024-07-23 02:19:57 - INFO - Logging initialized.
+2024-07-23 02:31:24 - INFO - Logging initialized.
+2024-07-23 02:31:24 - INFO - Config File Contains: {'model': 'llama3-70b', 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-23 02:31:24 - INFO - Sending API request:
+2024-07-23 02:31:24 - INFO - {
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the weather today?"
+    }
+  ],
+  "functions": [
+    {
+      "name": "Math Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "question": {
+              "type": "string",
+              "description": "The mathematical question or topic you need assistance with."
+            }
+          }
+        }
+      },
+      "required": [
+        "question"
+      ]
+    },
+    {
+      "name": "Science Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "topic": {
+              "type": "string",
+              "description": "The scientific topic or question you want to learn about."
+            }
+          }
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    },
+    {
+      "name": "Technology Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "topic": {
+              "type": "string",
+              "description": "The technology topic or question you need assistance with."
+            }
+          }
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    },
+    {
+      "name": "Engineering Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "topic": {
+              "type": "string",
+              "description": "The engineering topic or question you want to explore."
+            }
+          }
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    }
+  ],
+  "model": "llama3-70b",
+  "stream": "",
+  "max_token": "",
+  "temperature": "",
+  "top_p": "",
+  "frequency_penalty": ""
+}
+2024-07-23 02:31:25 - ERROR - Error executing API request: POST 422 [{'type': 'bool_parsing', 'loc': ['body', 'stream'], 'msg': 'Input should be a valid boolean, unable to interpret input', 'input': ''}, {'type': 'float_parsing', 'loc': ['body', 'temperature'], 'msg': 'Input should be a valid number, unable to parse string as a number', 'input': ''}, {'type': 'float_parsing', 'loc': ['body', 'top_p'], 'msg': 'Input should be a valid number, unable to parse string as a number', 'input': ''}, {'type': 'float_parsing', 'loc': ['body', 'frequency_penalty'], 'msg': 'Input should be a valid number, unable to parse string as a number', 'input': ''}]
+2024-07-23 02:33:13 - INFO - Logging initialized.
+2024-07-23 02:33:13 - INFO - Config File Contains: {'model': 'llama3-70b', 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-23 02:33:13 - INFO - Sending API request:
+2024-07-23 02:33:13 - INFO - {
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the weather today?"
+    }
+  ],
+  "functions": [
+    {
+      "name": "Math Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "question": {
+              "type": "string",
+              "description": "The mathematical question or topic you need assistance with."
+            }
+          }
+        }
+      },
+      "required": [
+        "question"
+      ]
+    },
+    {
+      "name": "Science Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "topic": {
+              "type": "string",
+              "description": "The scientific topic or question you want to learn about."
+            }
+          }
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    },
+    {
+      "name": "Technology Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "topic": {
+              "type": "string",
+              "description": "The technology topic or question you need assistance with."
+            }
+          }
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    },
+    {
+      "name": "Engineering Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "topic": {
+              "type": "string",
+              "description": "The engineering topic or question you want to explore."
+            }
+          }
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    }
+  ],
+  "model": "llama3-70b",
+  "stream": "",
+  "max_token": "",
+  "temperature": "",
+  "top_p": "",
+  "frequency_penalty": ""
+}
+2024-07-23 02:33:15 - ERROR - Error executing API request: POST 422 [{'type': 'bool_parsing', 'loc': ['body', 'stream'], 'msg': 'Input should be a valid boolean, unable to interpret input', 'input': ''}, {'type': 'float_parsing', 'loc': ['body', 'temperature'], 'msg': 'Input should be a valid number, unable to parse string as a number', 'input': ''}, {'type': 'float_parsing', 'loc': ['body', 'top_p'], 'msg': 'Input should be a valid number, unable to parse string as a number', 'input': ''}, {'type': 'float_parsing', 'loc': ['body', 'frequency_penalty'], 'msg': 'Input should be a valid number, unable to parse string as a number', 'input': ''}]
+2024-07-23 02:37:33 - INFO - Logging initialized.
+2024-07-23 02:37:33 - INFO - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-23 02:37:33 - INFO - Sending API request:
+2024-07-23 02:37:33 - INFO - {
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the weather today?"
+    }
+  ],
+  "functions": [
+    {
+      "name": "Math Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "question": {
+              "type": "string",
+              "description": "The mathematical question or topic you need assistance with."
+            }
+          }
+        }
+      },
+      "required": [
+        "question"
+      ]
+    },
+    {
+      "name": "Science Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "topic": {
+              "type": "string",
+              "description": "The scientific topic or question you want to learn about."
+            }
+          }
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    },
+    {
+      "name": "Technology Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "topic": {
+              "type": "string",
+              "description": "The technology topic or question you need assistance with."
+            }
+          }
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    },
+    {
+      "name": "Engineering Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "topic": {
+              "type": "string",
+              "description": "The engineering topic or question you want to explore."
+            }
+          }
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    }
+  ],
+  "model": "llama3-70b",
+  "stream": "False",
+  "max_token": 500,
+  "temperature": 0.1,
+  "top_p": 1.0,
+  "frequency_penalty": 1.0
+}
+2024-07-23 02:37:33 - INFO - API request successful
+2024-07-23 02:37:33 - INFO - Response received: <async_generator object LlamaAPI.run_stream at 0x7f6cc4278cc0>
+2024-07-23 02:37:33 - ERROR - Error executing API request: 'async_generator' object has no attribute 'json'
+2024-07-23 02:42:44 - INFO - Logging initialized.
+2024-07-23 02:42:44 - INFO - Sending API request:
+2024-07-23 02:42:44 - ERROR - Error executing API request: 'Llama' object has no attribute 'api_request_json'
+2024-07-23 02:46:33 - INFO - Logging initialized.
+2024-07-23 02:46:41 - INFO - Logging initialized.
+2024-07-23 02:46:41 - INFO - Sending API request:
+2024-07-23 02:46:41 - ERROR - Error executing API request: 'Llama' object has no attribute 'api_request_json'
+2024-07-23 02:48:16 - INFO - Logging initialized.
+2024-07-23 02:48:16 - INFO - Sending API request:
+2024-07-23 02:48:16 - ERROR - Error executing API request: 'Llama' object has no attribute 'api_request_json'
+2024-07-23 02:49:38 - INFO - Logging initialized.
+2024-07-23 02:49:38 - INFO - Sending API request:
+2024-07-23 02:49:38 - ERROR - Error executing API request: 'Llama' object has no attribute 'llama'
+2024-07-23 02:51:57 - INFO - Logging initialized.
+2024-07-23 02:51:57 - INFO - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-23 02:51:57 - INFO - Sending API request:
+2024-07-23 02:51:57 - INFO - {
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the weather today?"
+    }
+  ],
+  "functions": [
+    {
+      "name": "Math Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "question": {
+              "type": "string",
+              "description": "The mathematical question or topic you need assistance with."
+            }
+          }
+        }
+      },
+      "required": [
+        "question"
+      ]
+    },
+    {
+      "name": "Science Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "topic": {
+              "type": "string",
+              "description": "The scientific topic or question you want to learn about."
+            }
+          }
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    },
+    {
+      "name": "Technology Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "topic": {
+              "type": "string",
+              "description": "The technology topic or question you need assistance with."
+            }
+          }
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    },
+    {
+      "name": "Engineering Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "topic": {
+              "type": "string",
+              "description": "The engineering topic or question you want to explore."
+            }
+          }
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    }
+  ],
+  "model": "llama3-70b",
+  "stream": "False",
+  "max_token": 500,
+  "temperature": 0.1,
+  "top_p": 1.0,
+  "frequency_penalty": 1.0
+}
+2024-07-23 02:51:57 - INFO - API request successful
+2024-07-23 02:51:57 - INFO - Response received: <async_generator object LlamaAPI.run_stream at 0x7f6a0ac51dc0>
+2024-07-23 02:51:57 - ERROR - Error executing API request: 'async_generator' object has no attribute 'json'
+2024-07-23 02:52:15 - INFO - Logging initialized.
+2024-07-23 02:52:15 - INFO - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-23 02:52:15 - INFO - Sending API request:
+2024-07-23 02:52:15 - INFO - {
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the weather today?"
+    }
+  ],
+  "functions": [
+    {
+      "name": "Math Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "question": {
+              "type": "string",
+              "description": "The mathematical question or topic you need assistance with."
+            }
+          }
+        }
+      },
+      "required": [
+        "question"
+      ]
+    },
+    {
+      "name": "Science Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "topic": {
+              "type": "string",
+              "description": "The scientific topic or question you want to learn about."
+            }
+          }
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    },
+    {
+      "name": "Technology Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "topic": {
+              "type": "string",
+              "description": "The technology topic or question you need assistance with."
+            }
+          }
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    },
+    {
+      "name": "Engineering Teacher",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": "object",
+          "properties": {
+            "topic": {
+              "type": "string",
+              "description": "The engineering topic or question you want to explore."
+            }
+          }
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    }
+  ],
+  "model": "llama3-70b",
+  "stream": "False",
+  "max_token": 500,
+  "temperature": 0.1,
+  "top_p": 1.0,
+  "frequency_penalty": 1.0
+}
+2024-07-23 02:52:15 - INFO - API request successful
+2024-07-23 02:52:15 - INFO - Response received: <async_generator object LlamaAPI.run_stream at 0x7ff34e8f5dc0>
+2024-07-23 02:52:15 - ERROR - Error executing API request: Object of type async_generator is not JSON serializable
+2024-07-23 02:52:41 - INFO - Logging initialized.
+2024-07-23 02:52:41 - INFO - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-23 02:52:41 - INFO - Sending API request:
+2024-07-23 02:52:41 - INFO - API request successful
+2024-07-23 02:52:41 - INFO - Response received: <async_generator object LlamaAPI.run_stream at 0x7fa61871d9c0>
+2024-07-23 02:55:32 - INFO - Logging initialized.
+2024-07-23 02:55:32 - INFO - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-23 02:55:32 - INFO - Sending API request:
+2024-07-23 02:55:33 - ERROR - Error executing API request: sequence item 0: expected a bytes-like object, str found
+2024-07-23 02:56:06 - INFO - Logging initialized.
+2024-07-23 02:56:06 - INFO - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-23 02:56:06 - INFO - Sending API request:
+2024-07-23 02:56:07 - ERROR - Error executing API request: sequence item 0: expected a bytes-like object, str found
+2024-07-23 02:56:39 - INFO - Logging initialized.
+2024-07-23 02:56:39 - INFO - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-23 02:56:39 - INFO - Sending API request:
+2024-07-23 02:56:39 - INFO - API request successful
+2024-07-23 02:56:39 - INFO - Response received: <async_generator object LlamaAPI.run_stream at 0x7ff175500bc0>
+2024-07-23 03:12:28 - INFO - Logging initialized.
+2024-07-23 03:12:28 - INFO - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-23 03:12:28 - INFO - Sending API request:
+2024-07-23 03:12:28 - INFO - API request successful
+2024-07-23 03:12:28 - INFO - Response received: <async_generator object LlamaAPI.run_stream at 0x7f5a8ba74bc0>
