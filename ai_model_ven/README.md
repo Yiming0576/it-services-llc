@@ -35,34 +35,41 @@ Developed by xAI, known for obtaining honest and current information.
 ### 10. Meta AI
 Integrates well with social platforms for enhanced interactions.
 
-"""
-    ## Project Setup Guide
 
-    ### Prerequisites
-    - Python installed (version X.X or above)
-    - pip package manager installed
+## Project Setup Guide
 
-    ### Installation of Required Python Libraries
-    Ensure you have navigated to your project directory before proceeding with the following steps.
+### Prerequisites
+- Python installed (version X.X or above)
+- pip package manager installed
 
-    1. **Create a virtual environment** (optional but recommended):
-       ```bash
-       python -m venv env
-       source env/bin/activate  # On Windows use `env\Scripts\activate`
-       ```
+### Installation of Required Python Libraries
+Ensure you have navigated to your project directory before proceeding with the following steps.
 
-    2. **Install required Python libraries**:
-       ```bash
-       pip install -r requirements.txt
-       ```
+1. **Create a virtual environment** (optional but recommended):
+```bash
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+```
 
-       The `requirements.txt` file should contain the following dependencies:
-       ```
-       library1
-       library2
-       ```
+2. **Install required Python libraries**:
+- You should download the dependency based on what ai model you try to use!
+```bash
+pip install -r requirements.txt
+```
 
-       Replace `library1`, `library2`, etc. with the actual names of the libraries required for your project.
+The `requirements.txt` file should contain the following dependencies:
+```
+llama
+google-gemini
+microsoft-copilot
+perplexity
+chatsonic
+openai-playground
+github-copilot
+character-ai
+xai-grok
+
+```
 
 ## Configuration Steps
 
@@ -98,6 +105,7 @@ The model supports various functions that enhance its capabilities. Refer to the
         // List of functions supported by the model
     ]
 }
+```
 
 ### 2. Google Gemini (formerly Bard)
 Steps to configure Google Gemini:
