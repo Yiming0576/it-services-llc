@@ -1,9 +1,17 @@
 import os
 import sys
-import logging
-import plugnplai as pl
-from llama import Llama
+import logging.config
+import yaml
+# import plugnplai as pl
+from llama.core.llama import Llama
 
+# Basic configuration for logger
+logging.config.dictConfig(yaml.load(open('config/logger_config.yaml', 'r'), Loader=yaml.FullLoader))
+
+# Now you can use logger in your script
+logger = logging.getLogger(__name__)
+logger.info('logger configured using YAML file.')
+logger.info("logger initialized.")  # Example log message
 
 
 def main()-> None:
@@ -34,13 +42,17 @@ if __name__ == "__main__":
     api_key = os.getenv('LLAMA_API_KEY')
 
     if api_key is None:
-        logging.error("API_KEY environment variable not set")
+        logger.error("API_KEY environment variable not set")
         sys.exit(1)  # Exit the program if API_KEY is not set
 
+
+    # user input testing porpuse
+    # user_input = input("Enter your question: ")
+
     # Create an instance of LlamaAPI
-    api_client = Llama("What is the weather today?")
+    api_client = Llama(" 1 + 1 ?")
 
     # Execute the API request
-    response = api_client.execute_request()
-    print(f"Response: {response}")
+    # response = api_client.execute_request()
+    # print(f"Response: {response}")
 
