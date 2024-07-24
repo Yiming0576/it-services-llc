@@ -68,7 +68,6 @@ openai-playground
 github-copilot
 character-ai
 xai-grok
-
 ```
 
 ## Configuration Steps

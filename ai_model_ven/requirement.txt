@@ -1,0 +1,10 @@
+yaml
+llama
+google-gemini
+microsoft-copilot
+perplexity
+chatsonic
+openai-playground
+github-copilot
+character-ai
+xai-grok
