@@ -2,35 +2,34 @@ version: 1
 formatters:
   brief:
     format: '%(asctime)s - %(levelname)s - %(message)s'
+    datefmt: '%Y-%m-%d %H:%M:%S'
   precise:
-    format: '%(asctime)s - %(levelname)s - %(module)s - %(message)s'
-
-filters:
-  allow_foo:
-    name: foo_filter
-    func: my_module.allow_foo_filter
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(module)s - %(message)s'
+    datefmt: '%Y-%m-%d %H:%M:%S'
 
 handlers:
   console:
     class: logging.StreamHandler
     formatter: brief
     level: INFO
-    filters: [allow_foo]
     stream: ext://sys.stdout
 
-  file:
+  file_handler:
     class: logging.handlers.RotatingFileHandler
     formatter: precise
-    filename: '/app_.log'
+    filename: '../src/llama/log/all_modules.log'
     maxBytes: 1024
     backupCount: 3
+    level: DEBUG
+    mode: a
 
 loggers:
-  my_module:
+  src:
     level: DEBUG
-    handlers: [console, file]
+    handlers: [file_handler]
     propagate: no
 
 root:
-  level: INFO
-  handlers: [console, file]
+  level: DEBUG
+  handlers: [console, file_handler]
+  propagate: no

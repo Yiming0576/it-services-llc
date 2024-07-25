@@ -1,14 +1,16 @@
 import json
-# import logger
 from llamaapi import LlamaAPI  
 import os
 import sys
 import attr
+import logging
+from llama.log.root_log import setup_logging
 
 
+# Call the setup function to configure logging
+setup_logging()
 
-
-logger.info("logger initialized.")  # Example log message
+logger = logging.getLogger(__name__)
 
 @attr.s
 class Llama:
@@ -68,16 +70,14 @@ class Llama:
             "frequency_penalty": ""
         }
 
-        self.config_file_path = os.getcwd() + f"/llama/{self.config_file_path}"
-        print(f"absolute_path:  {self.config_file_path}")
-
-        sys.exit()
+        self.config_file_path = os.getcwd() + f"/llama/config/{self.config_file_path}"
+        
         # Load the configuration file
         if os.path.exists(self.config_file_path):
             # File exists, so open it and load the configuration
             with open(self.config_file_path, 'r') as config_file:
                 config = json.load(config_file)
-                logger.info(f"Config File Contains: {config}")
+                logger.debug(f"Config File Contains: {config}")
         else:
             logger.error(f"The configuration file '{self.config_file_path}' does not exist.")
             # Handle this error scenario as needed
@@ -115,8 +115,8 @@ class Llama:
             dict: The response received from the API.
         """
         try:
-            logger.info("Sending API request:")
-            # logger.info(json.dumps(self.api_request_json, indent=2))
+            logger.debug("Sending API request:")
+            # logger.debug(json.dumps(self.api_request_json, indent=2))
 
             if self.llama:
                 # Execute the request using your SDK or library (assuming llama.run() exists)
@@ -124,9 +124,9 @@ class Llama:
                 print(f"Response: {response}")
 
                 # Log the response received
-                logger.info("API request successful")
-                logger.info(f"Response received: {response}")
-                # logger.info(json.dumps(response, indent=2))
+                logger.debug("API request successful")
+                logger.debug(f"Response received: {response}")
+                # logger.debug(json.dumps(response, indent=2))
 
                 return response
             else:
@@ -139,17 +139,17 @@ class Llama:
             return None
 
 # Example usage:
-if __name__ == "__main__":
-    # Accessing the API key
-    api_key = os.getenv('LLAMA_API_KEY')
+# if __name__ == "__main__":
+#     # Accessing the API key
+#     api_key = os.getenv('LLAMA_API_KEY')
 
-    if api_key is None:
-        logger.error("API_KEY environment variable not set")
-        sys.exit(1)  # Exit the program if API_KEY is not set
+#     if api_key is None:
+#         logger.error("API_KEY environment variable not set")
+#         sys.exit(1)  # Exit the program if API_KEY is not set
 
-    # Create an instance of LlamaAPI
-    api_client = Llama("What is the weather today?")
+#     # Create an instance of LlamaAPI
+#     api_client = Llama("What is the weather today?")
 
-    # Execute the API request
-    response = api_client.execute_request()
-    print(f"Response: {response}")
+#     # Execute the API request
+#     response = api_client.execute_request()
+#     print(f"Response: {response}")

@@ -1,7 +1,10 @@
 import attr
 from datetime import datetime
 import uuid
+import logging
 
+logger = logging.getLogger(__name__)
+logger.info("logger initialized.") 
 @attr.s
 class ChatSession:
     session_id: str = attr.ib(default=attr.Factory(lambda: uuid.uuid4().hex))

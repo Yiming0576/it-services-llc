@@ -1,37 +1,54 @@
 import os
 import sys
-import logging.config
-import yaml
 # import plugnplai as pl
 from llama.core.llama import Llama
+from llama.log.root_log import setup_logging
 
-# Basic configuration for logger
-logging.config.dictConfig(yaml.load(open('config/logger_config.yaml', 'r'), Loader=yaml.FullLoader))
 
-# Now you can use logger in your script
+# Call the setup function to configure logging
+setup_logging()
+
+import logging
 logger = logging.getLogger(__name__)
-logger.info('logger configured using YAML file.')
-logger.info("logger initialized.")  # Example log message
-
 
 def main()-> None:
 
-    model = input("What AI model would you like it: \n << LLAMA (1) >>\n << ChatGPT (1) >>? ")
+    model = input("What AI model would you like to know more about?\n"
+                " << Claude (1) >>\n"
+                " << Google Gemini (formerly Bard) (2) >>\n"
+                " << Microsoft Copilot (3) >>\n"
+                " << Perplexity (4) >>\n"
+                " << ChatSonic (5) >>\n"
+                " << OpenAI ChatGPT (6) >>\n"
+                " << Character.AI (7) >>\n"
+                " << xAI Grok (8) >>\n"
+                " << Meta AI (LLAMA) (9) >>\n"
+                "Enter the corresponding number: ")
 
     match model:
         case 1:
-            print("You can become a web developer.")
+            print("Integrates well with social platforms for enhanced interactions.")
 
         case 2:
-            print("You can become a Data Scientist")
+            print("Allows for customization and experimentation with AI models.")
 
         case 3:
-            print("You can become a backend developer")
-        
+            print("Developed by Anthropic, Claude is known for its human-like interactions and strong reasoning capabilities.")
+
         case 4:
-            print("You can become a Blockchain developer")
+            print("Great for problem-solving and multimodal capabilities.")
 
         case 5:
+            print("You can become a mobile app developer")
+        case 6:
+            print("You can become a mobile app developer")
+
+        case 7:
+            print("You can become a mobile app developer")
+
+        case 8:
+            print("You can become a mobile app developer")
+        case 9:
             print("You can become a mobile app developer")
         case _:
             print("The language doesn't matter, what matters is solving problems.")
@@ -53,6 +70,6 @@ if __name__ == "__main__":
     api_client = Llama(" 1 + 1 ?")
 
     # Execute the API request
-    # response = api_client.execute_request()
-    # print(f"Response: {response}")
+    response = api_client.execute_request()
+    logger.debug(f"Response: {response}")
 

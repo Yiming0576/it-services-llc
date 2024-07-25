@@ -1,7 +1,10 @@
 from PyQt6.QtWidgets import QMainWindow, QApplication, QPushButton
-
 import sys
+import os
+import logging
 
+logger = logging.getLogger(__name__)
+logger.info("logger initialized.") 
 
 class MainWindow(QMainWindow):
     def __init__(self):
