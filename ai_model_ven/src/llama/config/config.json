@@ -1,67 +1,15 @@
 {
-  "model": "llama3-70b",
-  "stream": "False",
+  "messages": [
+    {"role": "user", "content": "Extract the desired information from the following passage.:\n\nHi!"}
+  ],
+  "model": "llama3.1-70b",
+  "stream": false,
   "function_call": "",
   "max_token": 500,
   "temperature": 0.1,
   "top_p": 1.0,
   "frequency_penalty": 1.0,
-  "functions": [
-    {
-      "name": "Math Teacher",
-      "description": "Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.",
-      "parameters": {
-        "type": "object",
-        "properties": {
-          "question": {
-            "type": "string",
-            "description": "The mathematical question or topic you need assistance with."
-          }
-        }
-      },
-      "required": ["question"]
-    },
-    {
-      "name": "Science Teacher",
-      "description": "Provide explanations, experiments, and educational content related to various scientific disciplines.",
-      "parameters": {
-        "type": "object",
-        "properties": {
-          "topic": {
-            "type": "string",
-            "description": "The scientific topic or question you want to learn about."
-          }
-        }
-      },
-      "required": ["topic"]
-    },
-    {
-      "name": "Technology Teacher",
-      "description": "Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.",
-      "parameters": {
-        "type": "object",
-        "properties": {
-          "topic": {
-            "type": "string",
-            "description": "The technology topic or question you need assistance with."
-          }
-        }
-      },
-      "required": ["topic"]
-    },
-    {
-      "name": "Engineering Teacher",
-      "description": "Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.",
-      "parameters": {
-        "type": "object",
-        "properties": {
-          "topic": {
-            "type": "string",
-            "description": "The engineering topic or question you want to explore."
-          }
-        }
-      },
-      "required": ["topic"]
-    }
-  ]
+  "functions": []
+
 }
+

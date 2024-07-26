@@ -1,8 +1,0 @@
-2024-07-24 21:41:16 - llama.log.root_log - INFO - root_log - Logger initialized.
-2024-07-24 21:41:16 - __main__ - DEBUG - index - Response: <async_generator object LlamaAPI.run_stream at 0x7f985e554440>
-2024-07-24 21:41:24 - llama.log.root_log - INFO - root_log - Logger initialized.
-2024-07-24 21:41:24 - __main__ - DEBUG - index - Response: <async_generator object LlamaAPI.run_stream at 0x7fdcadb7c440>
-2024-07-24 21:41:32 - llama.log.root_log - INFO - root_log - Logger initialized.
-2024-07-24 21:41:32 - __main__ - DEBUG - index - Response: <async_generator object LlamaAPI.run_stream at 0x7ffb10934440>
-2024-07-24 22:00:10 - llama.log.root_log - INFO - root_log - Logger initialized.
-2024-07-24 22:00:10 - __main__ - DEBUG - index - Response: <async_generator object LlamaAPI.run_stream at 0x7fc10af2c440>

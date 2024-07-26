@@ -2,13 +2,14 @@ import os
 import sys
 # import plugnplai as pl
 from llama.core.llama import Llama
-from llama.log.root_log import setup_logging
-
-
-# Call the setup function to configure logging
-setup_logging()
-
+# from llama.log.root_log import setup_logging
 import logging
+
+# # Call the setup function to configure logging
+# setup_logging()
+
+# logger = logging.getLogger(__name__)
+
 logger = logging.getLogger(__name__)
 
 def main()-> None:
@@ -62,14 +63,9 @@ if __name__ == "__main__":
         logger.error("API_KEY environment variable not set")
         sys.exit(1)  # Exit the program if API_KEY is not set
 
-
-    # user input testing porpuse
-    # user_input = input("Enter your question: ")
-
     # Create an instance of LlamaAPI
-    api_client = Llama(" 1 + 1 ?")
+    api_client = Llama("I am so hungry, what should I eat?")
 
     # Execute the API request
-    response = api_client.execute_request()
-    logger.debug(f"Response: {response}")
-
+    response =  api_client.execute_request()
+    print(f"Response: {response}")

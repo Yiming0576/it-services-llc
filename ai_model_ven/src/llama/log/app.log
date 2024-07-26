@@ -1,0 +1,322 @@
+2024-07-24 23:28:35 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-24 23:28:35 - __main__ - DEBUG - llama - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-24 23:28:35 - __main__ - DEBUG - llama - Sending API request:
+2024-07-24 23:28:35 - __main__ - ERROR - llama - Error executing API request: object async_generator can't be used in 'await' expression
+2024-07-24 23:31:27 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-24 23:31:27 - __main__ - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/core/../config/config.json
+2024-07-24 23:31:27 - __main__ - INFO - llama - True
+2024-07-24 23:31:27 - __main__ - DEBUG - llama - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-24 23:31:38 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-24 23:31:38 - __main__ - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/core/../config/config.json
+2024-07-24 23:31:38 - __main__ - INFO - llama - True
+2024-07-24 23:31:38 - __main__ - DEBUG - llama - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-24 23:34:34 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-24 23:34:34 - __main__ - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/core/../config/config.json
+2024-07-24 23:34:34 - __main__ - INFO - llama - True
+2024-07-24 23:34:34 - __main__ - DEBUG - llama - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-24 23:34:34 - __main__ - DEBUG - llama - Sending API request:
+2024-07-24 23:34:34 - __main__ - ERROR - llama - Error executing API request: object async_generator can't be used in 'await' expression
+2024-07-24 23:42:44 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-24 23:42:44 - __main__ - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/core/../config/config.json
+2024-07-24 23:42:44 - __main__ - INFO - llama - True
+2024-07-24 23:42:44 - __main__ - DEBUG - llama - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-24 23:42:44 - __main__ - DEBUG - llama - Sending API request:
+2024-07-24 23:42:44 - __main__ - ERROR - llama - Error executing API request: object async_generator can't be used in 'await' expression
+2024-07-24 23:43:19 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-24 23:43:19 - __main__ - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/core/../config/config.json
+2024-07-24 23:43:19 - __main__ - INFO - llama - True
+2024-07-24 23:43:19 - __main__ - DEBUG - llama - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-24 23:43:19 - __main__ - DEBUG - llama - Sending API request:
+2024-07-24 23:43:19 - __main__ - ERROR - llama - Error executing API request: 'async_generator' object has no attribute 'json'
+2024-07-24 23:43:34 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-24 23:43:34 - __main__ - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/core/../config/config.json
+2024-07-24 23:43:34 - __main__ - INFO - llama - True
+2024-07-24 23:43:34 - __main__ - DEBUG - llama - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-24 23:43:34 - __main__ - DEBUG - llama - Sending API request:
+2024-07-24 23:43:34 - __main__ - ERROR - llama - Error executing API request: Object of type async_generator is not JSON serializable
+2024-07-24 23:44:10 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-24 23:44:10 - __main__ - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/core/../config/config.json
+2024-07-24 23:44:10 - __main__ - INFO - llama - True
+2024-07-24 23:44:10 - __main__ - DEBUG - llama - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-24 23:44:10 - __main__ - DEBUG - llama - Sending API request:
+2024-07-24 23:44:10 - __main__ - INFO - llama - Response: <async_generator object LlamaAPI.run_stream at 0x7efd55e7cf40>
+2024-07-24 23:44:10 - __main__ - DEBUG - llama - API request successful
+2024-07-24 23:44:10 - __main__ - DEBUG - llama - Response received: <async_generator object LlamaAPI.run_stream at 0x7efd55e7cf40>
+2024-07-24 23:45:19 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-24 23:45:19 - __main__ - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/core/../config/config.json
+2024-07-24 23:45:19 - __main__ - INFO - llama - True
+2024-07-24 23:45:19 - __main__ - DEBUG - llama - Config File Contains: {'model': 'llama3-70b', 'stream': 'False', 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-24 23:45:19 - __main__ - DEBUG - llama - Sending API request:
+2024-07-24 23:45:19 - __main__ - INFO - llama - Response: <async_generator object LlamaAPI.run_stream at 0x7fd377814f40>
+2024-07-24 23:45:19 - __main__ - DEBUG - llama - API request successful
+2024-07-24 23:45:19 - __main__ - DEBUG - llama - Response received: <async_generator object LlamaAPI.run_stream at 0x7fd377814f40>
+2024-07-24 23:51:34 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-24 23:51:34 - llama.core.llama - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/../config/config.json
+2024-07-24 23:51:34 - llama.core.llama - INFO - llama - False
+2024-07-24 23:51:34 - llama.core.llama - ERROR - llama - The configuration file '/home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/../config/config.json' does not exist.
+2024-07-24 23:51:34 - llama.core.llama - DEBUG - llama - Sending API request:
+2024-07-24 23:51:34 - llama.core.llama - ERROR - llama - Error executing API request: 'NoneType' object has no attribute 'get'
+2024-07-25 15:25:41 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 15:25:41 - llama.core.llama - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/../config/config.json
+2024-07-25 15:25:41 - llama.core.llama - INFO - llama - False
+2024-07-25 15:25:41 - llama.core.llama - ERROR - llama - The configuration file '/home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/../config/config.json' does not exist.
+2024-07-25 15:25:41 - llama.core.llama - DEBUG - llama - Sending API request:
+2024-07-25 15:25:41 - llama.core.llama - ERROR - llama - Error executing API request: 'NoneType' object has no attribute 'get'
+2024-07-25 15:28:42 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 15:28:42 - llama.core.llama - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/../config/config.json
+2024-07-25 15:28:42 - llama.core.llama - INFO - llama - False
+2024-07-25 15:28:42 - llama.core.llama - ERROR - llama - The configuration file '/home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/../config/config.json' does not exist.
+2024-07-25 15:28:42 - llama.core.llama - DEBUG - llama - Sending API request:
+2024-07-25 15:28:42 - llama.core.llama - ERROR - llama - Error executing API request: 'NoneType' object has no attribute 'get'
+2024-07-25 15:37:00 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 15:37:00 - llama.core.llama - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/../config/config.json
+2024-07-25 15:37:00 - llama.core.llama - INFO - llama - False
+2024-07-25 15:37:00 - llama.core.llama - ERROR - llama - The configuration file '/home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/../config/config.json' does not exist.
+2024-07-25 15:37:00 - llama.core.llama - DEBUG - llama - Sending API request:
+2024-07-25 15:37:00 - llama.core.llama - ERROR - llama - Error executing API request: 'NoneType' object has no attribute 'get'
+2024-07-25 15:37:53 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 15:37:53 - llama.core.llama - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/../config/config.json
+2024-07-25 15:37:53 - llama.core.llama - INFO - llama - False
+2024-07-25 15:37:53 - llama.core.llama - ERROR - llama - The configuration file '/home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/../config/config.json' does not exist.
+2024-07-25 15:37:53 - llama.core.llama - DEBUG - llama - Sending API request:
+2024-07-25 15:37:53 - llama.core.llama - ERROR - llama - Error executing API request: 'NoneType' object has no attribute 'get'
+2024-07-25 15:39:46 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 15:39:46 - llama.core.llama - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/../config/config.json
+2024-07-25 15:39:46 - llama.core.llama - INFO - llama - False
+2024-07-25 15:40:02 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 15:40:02 - llama.core.llama - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 15:40:02 - llama.core.llama - INFO - llama - True
+2024-07-25 15:40:09 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 15:40:09 - llama.core.llama - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 15:40:09 - llama.core.llama - INFO - llama - True
+2024-07-25 15:40:09 - llama.core.llama - DEBUG - llama - Config File Contains: {'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-25 15:40:09 - llama.core.llama - DEBUG - llama - Sending API request:
+2024-07-25 15:40:09 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 15:40:11 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 400 165
+2024-07-25 15:40:11 - llama.core.llama - ERROR - llama - Error executing API request: POST 400 Failed to process your request. Please try again later. If you are processing a function, try using a larger model (70b) for better function formatting.
+2024-07-25 15:41:04 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 15:41:04 - llama.core.llama - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 15:41:04 - llama.core.llama - INFO - llama - True
+2024-07-25 15:41:04 - llama.core.llama - DEBUG - llama - Config File Contains: {'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': [{'name': 'Math Teacher', 'description': 'Assist with math-related queries by providing prompts, explanations, or step-by-step guides to help users understand and solve mathematical problems.', 'parameters': {'type': 'object', 'properties': {'question': {'type': 'string', 'description': 'The mathematical question or topic you need assistance with.'}}}, 'required': ['question']}, {'name': 'Science Teacher', 'description': 'Provide explanations, experiments, and educational content related to various scientific disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The scientific topic or question you want to learn about.'}}}, 'required': ['topic']}, {'name': 'Technology Teacher', 'description': 'Offer guidance, tutorials, and insights into technology concepts, coding, software, and hardware.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The technology topic or question you need assistance with.'}}}, 'required': ['topic']}, {'name': 'Engineering Teacher', 'description': 'Provide explanations, problem-solving strategies, and design principles related to engineering disciplines.', 'parameters': {'type': 'object', 'properties': {'topic': {'type': 'string', 'description': 'The engineering topic or question you want to explore.'}}}, 'required': ['topic']}]}
+2024-07-25 15:41:04 - llama.core.llama - DEBUG - llama - Sending API request:
+2024-07-25 15:41:04 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 15:41:05 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 400 165
+2024-07-25 15:41:05 - llama.core.llama - ERROR - llama - Error executing API request: POST 400 Failed to process your request. Please try again later. If you are processing a function, try using a larger model (70b) for better function formatting.
+2024-07-25 15:42:29 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 15:42:29 - llama.core.llama - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 15:42:29 - llama.core.llama - INFO - llama - True
+2024-07-25 15:42:29 - llama.core.llama - DEBUG - llama - Config File Contains: {'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0}
+2024-07-25 15:42:29 - llama.core.llama - DEBUG - llama - Sending API request:
+2024-07-25 15:42:29 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 15:42:32 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 721
+2024-07-25 15:42:32 - llama.core.llama - ERROR - llama - Error executing API request: a coroutine was expected, got <Response [200]>
+2024-07-25 15:44:21 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 15:44:21 - llama.core.llama - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 15:44:21 - llama.core.llama - INFO - llama - True
+2024-07-25 15:44:21 - llama.core.llama - DEBUG - llama - Config File Contains: {'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0}
+2024-07-25 15:44:21 - llama.core.llama - DEBUG - llama - Sending API request:
+2024-07-25 15:44:21 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 15:44:24 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 643
+2024-07-25 15:44:24 - llama.core.llama - ERROR - llama - Error executing API request: Object of type Response is not JSON serializable
+2024-07-25 15:45:21 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 15:45:21 - llama.core.llama - INFO - llama - Config File Path: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 15:45:21 - llama.core.llama - INFO - llama - True
+2024-07-25 15:45:21 - llama.core.llama - DEBUG - llama - Config File Contains: {'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0}
+2024-07-25 15:45:21 - llama.core.llama - DEBUG - llama - Sending API request:
+2024-07-25 15:45:21 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 15:45:24 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 684
+2024-07-25 15:45:24 - llama.core.llama - ERROR - llama - Error executing API request: a coroutine was expected, got <Response [200]>
+2024-07-25 15:56:20 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 15:58:12 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 15:59:57 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 16:07:10 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 16:07:10 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 16:07:10 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 16:07:10 - llama.core.llama - DEBUG - llama - Configuration data: {
+  "messages": [
+    {
+      "role": "user",
+      "content": "Extract the desired information from the following passage.:\n\nHi!"
+    }
+  ],
+  "model": "llama3.1-70b",
+  "stream": false,
+  "function_call": "",
+  "max_token": 500,
+  "temperature": 0.1,
+  "top_p": 1.0,
+  "frequency_penalty": 1.0,
+  "functions": []
+}
+2024-07-25 16:07:10 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 16:07:10 - llama.core.llama - DEBUG - llama - Sending API request: {
+  "messages": [
+    {
+      "role": "user",
+      "content": "Extract the desired information from the following passage.:\n\nHi!"
+    }
+  ],
+  "model": "llama3.1-70b",
+  "stream": false,
+  "function_call": "",
+  "max_token": 500,
+  "temperature": 0.1,
+  "top_p": 1.0,
+  "frequency_penalty": 1.0,
+  "functions": []
+}
+2024-07-25 16:07:10 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 16:07:13 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 342
+2024-07-25 16:07:13 - llama.core.llama - ERROR - llama - Error executing API request: object Response can't be used in 'await' expression
+2024-07-25 16:07:55 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 16:07:55 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 16:07:55 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 16:07:55 - llama.core.llama - DEBUG - llama - Configuration data: {
+  "messages": [
+    {
+      "role": "user",
+      "content": "Extract the desired information from the following passage.:\n\nHi!"
+    }
+  ],
+  "model": "llama3.1-70b",
+  "stream": false,
+  "function_call": "",
+  "max_token": 500,
+  "temperature": 0.1,
+  "top_p": 1.0,
+  "frequency_penalty": 1.0,
+  "functions": []
+}
+2024-07-25 16:07:55 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 16:07:55 - llama.core.llama - DEBUG - llama - Sending API request: {
+  "messages": [
+    {
+      "role": "user",
+      "content": "Extract the desired information from the following passage.:\n\nHi!"
+    }
+  ],
+  "model": "llama3.1-70b",
+  "stream": false,
+  "function_call": "",
+  "max_token": 500,
+  "temperature": 0.1,
+  "top_p": 1.0,
+  "frequency_penalty": 1.0,
+  "functions": []
+}
+2024-07-25 16:07:55 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 16:07:58 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 321
+2024-07-25 16:07:58 - llama.core.llama - ERROR - llama - Error executing API request: Object of type Response is not JSON serializable
+2024-07-25 16:08:27 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 16:08:27 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 16:08:27 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 16:08:27 - llama.core.llama - DEBUG - llama - Configuration data: {
+  "messages": [
+    {
+      "role": "user",
+      "content": "Extract the desired information from the following passage.:\n\nHi!"
+    }
+  ],
+  "model": "llama3.1-70b",
+  "stream": false,
+  "function_call": "",
+  "max_token": 500,
+  "temperature": 0.1,
+  "top_p": 1.0,
+  "frequency_penalty": 1.0,
+  "functions": []
+}
+2024-07-25 16:08:27 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 16:08:27 - llama.core.llama - DEBUG - llama - Sending API request: {
+  "messages": [
+    {
+      "role": "user",
+      "content": "Extract the desired information from the following passage.:\n\nHi!"
+    }
+  ],
+  "model": "llama3.1-70b",
+  "stream": false,
+  "function_call": "",
+  "max_token": 500,
+  "temperature": 0.1,
+  "top_p": 1.0,
+  "frequency_penalty": 1.0,
+  "functions": []
+}
+2024-07-25 16:08:27 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 16:08:30 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 342
+2024-07-25 16:08:30 - llama.core.llama - ERROR - llama - Error executing API request: Object of type Response is not JSON serializable
+2024-07-25 16:09:47 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 16:09:47 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 16:09:47 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 16:09:47 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 16:09:47 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 16:09:47 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 16:09:47 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 16:09:49 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 326
+2024-07-25 16:09:49 - llama.core.llama - INFO - llama - Received response: <Response [200]>
+2024-07-25 16:12:16 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 16:12:16 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 16:12:16 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 16:12:16 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}, {'role': 'system', 'content': "You are a IT Services LLC assistant that talks like a llama, starting every word with 'IT Services LLC Assistant'."}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 16:12:16 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 16:12:16 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}, {'role': 'system', 'content': "You are a IT Services LLC assistant that talks like a llama, starting every word with 'IT Services LLC Assistant'."}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 16:12:16 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 16:12:19 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 768
+2024-07-25 16:12:19 - llama.core.llama - INFO - llama - Received response: <Response [200]>
+2024-07-25 16:12:19 - llama.core.llama - ERROR - llama - Error executing API request: Object of type Response is not JSON serializable
+2024-07-25 22:10:45 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:10:45 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:10:45 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:10:45 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}, {'role': 'system', 'content': "You are a IT Services LLC assistant that talks like a llama, starting every word with 'IT Services LLC Assistant'."}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:10:45 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:10:45 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}, {'role': 'system', 'content': "You are a IT Services LLC assistant that talks like a llama, starting every word with 'IT Services LLC Assistant'."}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:10:45 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:10:52 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 768
+2024-07-25 22:10:52 - llama.core.llama - INFO - llama - Received response: {'created': 1721959852, 'model': 'llama3.1-70b', 'usage': {'prompt_tokens': 89, 'completion_tokens': 100, 'total_tokens': 189}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant, IT Services LLC Assistant,', 'function_call': None}, 'finish_reason': 'stop'}]}
+2024-07-25 22:13:02 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:13:02 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:13:02 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:13:02 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}, {'role': 'system', 'content': "You are a IT Services LLC assistant that talks like a llama, starting every word with 'IT Services LLC Assistant'."}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:13:02 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:16:05 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:16:05 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:16:05 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}, {'role': 'system', 'content': "You are a IT Services LLC assistant that talks like a llama, starting every word with 'IT Services LLC Assistant'."}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:16:05 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:16:05 - llama.core.llama - DEBUG - llama - api_request_json:  {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}, {'role': 'system', 'content': "You are a IT Services LLC assistant that talks like a llama, starting every word with 'IT Services LLC Assistant'."}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:16:05 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:17:10 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:17:10 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:17:10 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}, {'role': 'system', 'content': "You are a IT Services LLC assistant that talks like a llama, starting every word with 'IT Services LLC Assistant'."}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:17:10 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:17:10 - llama.core.llama - DEBUG - llama - api_request_json:  {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}, {'role': 'system', 'content': "You are a IT Services LLC assistant that talks like a llama, starting every word with 'IT Services LLC Assistant'."}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:17:10 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:17:10 - llama.core.llama - INFO - llama - Updated configuration: {'messages': [{'role': 'user', 'content': 'I am so hungry, what should I eat?'}, {'role': 'system', 'content': "You are a IT Services LLC assistant that talks like a llama, starting every word with 'IT Services LLC Assistant'."}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:17:10 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:17:10 - llama.core.llama - DEBUG - llama - User message: I am so hungry, what should I eat?
+2024-07-25 22:17:54 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:17:54 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:17:54 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}, {'role': 'system', 'content': "You are a IT Services LLC assistant that talks like a llama, starting every word with 'IT Services LLC Assistant'."}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:17:54 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:17:54 - llama.core.llama - DEBUG - llama - api_request_json:  {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}, {'role': 'system', 'content': "You are a IT Services LLC assistant that talks like a llama, starting every word with 'IT Services LLC Assistant'."}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:17:54 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:17:54 - llama.core.llama - INFO - llama - Updated configuration: {'messages': [{'role': 'user', 'content': 'I am so hungry, what should I eat?'}, {'role': 'system', 'content': "You are a IT Services LLC assistant that talks like a llama, starting every word with 'IT Services LLC Assistant'."}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:17:54 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:17:54 - llama.core.llama - DEBUG - llama - User message: I am so hungry, what should I eat?
+2024-07-25 22:17:54 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'I am so hungry, what should I eat?'}, {'role': 'system', 'content': "You are a IT Services LLC assistant that talks like a llama, starting every word with 'IT Services LLC Assistant'."}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:17:54 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:18:03 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 519
+2024-07-25 22:18:03 - llama.core.llama - INFO - llama - Received response: {'created': 1721960283, 'model': 'llama3.1-70b', 'usage': {'prompt_tokens': 87, 'completion_tokens': 100, 'total_tokens': 187}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'IT Services LLC Assistant, Ah, IT Services LLC Assistant, Ahahah, IT Services LLC Assistant, Ah, IT Services LLC Assistant, Ah, Ah, Ah, IT Services LLC Assistant, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah, Ah', 'function_call': None}, 'finish_reason': 'max_token'}]}
+2024-07-25 22:18:40 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:18:40 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:18:40 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:18:40 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:18:40 - llama.core.llama - DEBUG - llama - api_request_json:  {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:18:40 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:18:40 - llama.core.llama - INFO - llama - Updated configuration: {'messages': [{'role': 'user', 'content': 'I am so hungry, what should I eat?'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:18:40 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:18:40 - llama.core.llama - DEBUG - llama - User message: I am so hungry, what should I eat?
+2024-07-25 22:18:40 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'I am so hungry, what should I eat?'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:18:40 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:18:43 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 670
+2024-07-25 22:18:43 - llama.core.llama - INFO - llama - Received response: {'created': 1721960323, 'model': 'llama3.1-70b', 'usage': {'prompt_tokens': 71, 'completion_tokens': 100, 'total_tokens': 171}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "Deciding what to eat can be tricky when you're hungry. Here are a few questions to help narrow down some options:\n\n* Do you have any dietary restrictions or preferences (e.g. vegetarian, gluten-free)?\n* What type of cuisine are you in the mood for (e.g. Italian, Mexican, Asian)?\n* Do you have any ingredients or leftovers at home that you'd like to use up?\n* How much time do you have to prepare a meal?\n\nIf you're short on time", 'function_call': None}, 'finish_reason': 'max_token'}]}
