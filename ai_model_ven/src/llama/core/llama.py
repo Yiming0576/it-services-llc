@@ -1,7 +1,6 @@
 import json
 import os
 import logging
-import asyncio
 import attr
 from llamaapi import LlamaAPI
 import sys
@@ -36,7 +35,7 @@ class Llama:
         api_request_json (dict): The API request JSON structure with the configured parameters.
     """
 
-    user_message = attr.ib()
+    user_message = attr.ib(default=None)
     api_key = attr.ib(default=os.getenv('LLAMA_API_KEY'))
     llama = attr.ib(init=False)
     role = attr.ib(default="user")
@@ -44,6 +43,8 @@ class Llama:
     api_request_json = attr.ib(init=False)
     response_json = attr.ib(default=None)
     response_content = attr.ib(default=None)
+
+    _instance = None
 
     def __attrs_post_init__(self):
         """
@@ -54,6 +55,14 @@ class Llama:
         logger.debug("Initializing Llama object")
         self.update_request_config()
 
+    @classmethod
+    def get_instance(cls, *args, **kwargs):
+        """
+        Returns the singleton instance of the Llama class. If it does not exist, it creates one.
+        """
+        if cls._instance is None:
+            cls._instance = cls(*args, **kwargs)
+        return cls._instance
 
     def load_request_config_json(self):
         """
@@ -92,17 +101,7 @@ class Llama:
         self.api_request_json["messages"][0]["content"] = self.user_message
         logger.info(f"Updated configuration:\n{json.dumps(self.api_request_json, indent=4)}")
 
-
-    def user_input(self, user_message):
-        """
-        Gets the user input from the console.
-
-        Returns:
-            str: The user input.
-        """
-        logger.debug("Getting user input")
-        return self.user_message
-
+        
     def execute_request(self):
         """
         Executes the API request using the LlamaAPI instance and returns the response.
@@ -118,7 +117,7 @@ class Llama:
                 logger.debug(f"Sending API request: {self.api_request_json}")
                 self.response_json =  self.llama.run(self.api_request_json).json()
                 print(f"self.response_json.json(): {self.response_json}")
-                logger.info(f"Received response: \n{ self.response_json}")
+                logger.info(f"Received response: \n{self.response_json}")
                 
                 return self.response_json
             else:

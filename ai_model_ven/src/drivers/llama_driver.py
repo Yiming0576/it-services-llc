@@ -5,9 +5,11 @@ from llama.core.llama import Llama
 # from llama.log.root_log import setup_logging
 import logging
 import json
+from src.model
 
 
 
+ record = record
 
 def llama_driver():
     api_key = os.getenv('LLAMA_API_KEY')
@@ -18,13 +20,15 @@ def llama_driver():
 
 
     flag = True
-    api_client = Llama() 
+    api_client = Llama.get_instance() 
 
     while flag:
         # Get user input
-        user_input = input("(exit: q)Enter your message or content: ")
-        api_client.user_input(user_input)
-
+        user_input = input("(exit: q) Enter your message or content: ")
+        api_client.user_message = user_input
+        api_client.update_request_config()
+        print("User message: ", api_client.user_message)
+        
         # Execute the API request
         response_json =  api_client.execute_request()
         # response_content = response_json['choices'][0]['message']['content']

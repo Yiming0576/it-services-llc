@@ -947,3 +947,293 @@
 2024-07-25 23:16:29 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 687
 2024-07-25 23:16:29 - llama.core.llama - INFO - llama - Received response: 
 {'created': 1721963789, 'model': 'mixtral-8x22b-instruct', 'usage': {'prompt_tokens': 22, 'completion_tokens': 89, 'total_tokens': 111}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '1. Learn HTML, CSS, and JavaScript: These are the fundamental building blocks of frontend development.\n2. Build a portfolio: Create a portfolio of your work to showcase your skills to potential employers.\n3. Learn a frontend framework: Popular frameworks include React, Angular, and Vue.js.\n4. Learn version control: Familiarize yourself with version control systems like Git.\n5. Build projects: Apply your skills by building projects, such', 'function_call': None}, 'finish_reason': 'max_token'}]}
+2024-07-26 08:37:37 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-26 08:37:37 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-26 08:37:37 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': "Extract the main points from the following passage: 'Hi! My name is John and I am a software engineer. I love working with Python and developing web applications.'"}], 'model': 'mixtral-8x22b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-26 08:37:37 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-26 08:37:37 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-26 08:37:37 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": null
+        }
+    ],
+    "model": "mixtral-8x22b-instruct",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-26 08:37:51 - llama.core.llama - DEBUG - llama - Getting user input
+2024-07-26 08:37:51 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-26 08:37:51 - llama.core.llama - DEBUG - llama - User message: None
+2024-07-26 08:37:51 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': None}], 'model': 'mixtral-8x22b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-26 08:37:51 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-26 08:37:52 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 422 125
+2024-07-26 08:37:52 - llama.core.llama - ERROR - llama - Error executing API request: POST 422 [{'type': 'string_type', 'loc': ['body', 'messages', 0, 'content'], 'msg': 'Input should be a valid string', 'input': None}]
+2024-07-26 08:39:06 - llama.core.llama - DEBUG - llama - Getting user input
+2024-07-26 08:39:06 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-26 08:39:06 - llama.core.llama - DEBUG - llama - User message: None
+2024-07-26 08:39:06 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': None}], 'model': 'mixtral-8x22b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-26 08:39:06 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-26 08:39:07 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 422 125
+2024-07-26 08:39:07 - llama.core.llama - ERROR - llama - Error executing API request: POST 422 [{'type': 'string_type', 'loc': ['body', 'messages', 0, 'content'], 'msg': 'Input should be a valid string', 'input': None}]
+2024-07-26 08:39:16 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-26 08:39:16 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-26 08:39:16 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': "Extract the main points from the following passage: 'Hi! My name is John and I am a software engineer. I love working with Python and developing web applications.'"}], 'model': 'mixtral-8x22b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-26 08:39:16 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-26 08:39:16 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-26 08:39:16 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": null
+        }
+    ],
+    "model": "mixtral-8x22b-instruct",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-26 08:39:35 - llama.core.llama - DEBUG - llama - Getting user input
+2024-07-26 08:41:01 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-26 08:41:01 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-26 08:41:01 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': "Extract the main points from the following passage: 'Hi! My name is John and I am a software engineer. I love working with Python and developing web applications.'"}], 'model': 'mixtral-8x22b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-26 08:41:01 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-26 08:41:01 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-26 08:41:01 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": null
+        }
+    ],
+    "model": "mixtral-8x22b-instruct",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-26 08:41:06 - llama.core.llama - DEBUG - llama - Getting user input
+2024-07-26 08:41:06 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-26 08:41:06 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": null
+        }
+    ],
+    "model": "mixtral-8x22b-instruct",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-26 08:42:40 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-26 08:42:40 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-26 08:42:40 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': "Extract the main points from the following passage: 'Hi! My name is John and I am a software engineer. I love working with Python and developing web applications.'"}], 'model': 'mixtral-8x22b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-26 08:42:40 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-26 08:42:40 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-26 08:42:40 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": null
+        }
+    ],
+    "model": "mixtral-8x22b-instruct",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-26 08:43:40 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-26 08:43:40 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-26 08:43:40 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': "Extract the main points from the following passage: 'Hi! My name is John and I am a software engineer. I love working with Python and developing web applications.'"}], 'model': 'mixtral-8x22b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-26 08:43:40 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-26 08:43:40 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-26 08:43:40 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": null
+        }
+    ],
+    "model": "mixtral-8x22b-instruct",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-26 08:43:50 - llama.core.llama - DEBUG - llama - Getting user input
+2024-07-26 08:43:50 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-26 08:43:50 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": null
+        }
+    ],
+    "model": "mixtral-8x22b-instruct",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-26 08:45:16 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-26 08:45:16 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-26 08:45:16 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': "Extract the main points from the following passage: 'Hi! My name is John and I am a software engineer. I love working with Python and developing web applications.'"}], 'model': 'mixtral-8x22b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-26 08:45:16 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-26 08:45:16 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-26 08:45:16 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": null
+        }
+    ],
+    "model": "mixtral-8x22b-instruct",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-26 08:45:25 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-26 08:45:25 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "todo list for leetcode"
+        }
+    ],
+    "model": "mixtral-8x22b-instruct",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-26 08:45:51 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-26 08:45:51 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-26 08:45:51 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': "Extract the main points from the following passage: 'Hi! My name is John and I am a software engineer. I love working with Python and developing web applications.'"}], 'model': 'mixtral-8x22b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-26 08:45:51 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-26 08:45:51 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-26 08:45:51 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": null
+        }
+    ],
+    "model": "mixtral-8x22b-instruct",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-26 08:45:58 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-26 08:45:58 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "todolist for leetcode"
+        }
+    ],
+    "model": "mixtral-8x22b-instruct",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-26 08:47:52 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-26 08:47:52 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-26 08:47:52 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': "Extract the main points from the following passage: 'Hi! My name is John and I am a software engineer. I love working with Python and developing web applications.'"}], 'model': 'mixtral-8x22b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-26 08:47:52 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-26 08:47:52 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-26 08:47:52 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": null
+        }
+    ],
+    "model": "mixtral-8x22b-instruct",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-26 08:47:59 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-26 08:47:59 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "to do list for leetcode"
+        }
+    ],
+    "model": "mixtral-8x22b-instruct",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-26 08:47:59 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-26 08:47:59 - llama.core.llama - DEBUG - llama - User message: to do list for leetcode
+2024-07-26 08:47:59 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'to do list for leetcode'}], 'model': 'mixtral-8x22b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-26 08:47:59 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-26 08:48:04 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 667
+2024-07-26 08:48:04 - llama.core.llama - INFO - llama - Received response: 
+{'created': 1721998084, 'model': 'mixtral-8x22b-instruct', 'usage': {'prompt_tokens': 14, 'completion_tokens': 87, 'total_tokens': 101}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "1. Create a LeetCode account if you haven't already.\n2. Choose a programming language you're comfortable with.\n3. Browse the problem categories and select a problem to solve.\n4. Read the problem statement carefully and understand the input/output requirements.\n5. Write your code in the LeetCode code editor.\n6. Test your code with the given test cases and any additional test cases you create.\n7. Submit your solution", 'function_call': None}, 'finish_reason': 'max_token'}]}

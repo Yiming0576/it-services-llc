@@ -4,7 +4,7 @@ import sys
 from llama.core.llama import Llama
 # from llama.log.root_log import setup_logging
 import logging
-import src.utilities.llama_driver as llama_driver
+from drivers.llama_driver import llama_driver 
 # # Call the setup function to configure logging
 # setup_logging()
 
@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 def main()-> None:
 
-    model = input("What AI model would you like to know more about?\n"
+    model = int(input("What AI model would you like to know more about?\n"
                 " << Claude (1) >>\n"
                 " << Google Gemini (formerly Bard) (2) >>\n"
                 " << Microsoft Copilot (3) >>\n"
@@ -24,7 +24,7 @@ def main()-> None:
                 " << Character.AI (7) >>\n"
                 " << xAI Grok (8) >>\n"
                 " << Meta AI (LLAMA) (9) >>\n"
-                "Enter the corresponding number: ")
+                "Enter the corresponding number: "))
 
     match model:
         case 1:
