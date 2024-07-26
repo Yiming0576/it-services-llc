@@ -320,3 +320,630 @@
 2024-07-25 22:18:40 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
 2024-07-25 22:18:43 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 670
 2024-07-25 22:18:43 - llama.core.llama - INFO - llama - Received response: {'created': 1721960323, 'model': 'llama3.1-70b', 'usage': {'prompt_tokens': 71, 'completion_tokens': 100, 'total_tokens': 171}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "Deciding what to eat can be tricky when you're hungry. Here are a few questions to help narrow down some options:\n\n* Do you have any dietary restrictions or preferences (e.g. vegetarian, gluten-free)?\n* What type of cuisine are you in the mood for (e.g. Italian, Mexican, Asian)?\n* Do you have any ingredients or leftovers at home that you'd like to use up?\n* How much time do you have to prepare a meal?\n\nIf you're short on time", 'function_call': None}, 'finish_reason': 'max_token'}]}
+2024-07-25 22:22:06 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:22:06 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:22:06 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:22:06 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:22:06 - llama.core.llama - DEBUG - llama - api_request_json:  {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:22:06 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:22:06 - llama.core.llama - INFO - llama - Updated configuration: {'messages': [{'role': 'user', 'content': 'I am so hungry, what should I eat?'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:22:06 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:22:06 - llama.core.llama - DEBUG - llama - User message: I am so hungry, what should I eat?
+2024-07-25 22:22:06 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'I am so hungry, what should I eat?'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:22:06 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:22:12 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 633
+2024-07-25 22:22:12 - llama.core.llama - INFO - llama - Received response: {'created': 1721960531, 'model': 'llama3.1-70b', 'usage': {'prompt_tokens': 71, 'completion_tokens': 100, 'total_tokens': 171}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "Deciding what to eat can be tricky when you're hungry. Here are some quick ideas:\n\n1. **Pantry staples**: Do you have any non-perishable items like nuts, dried fruits, energy bars, or canned goods?\n2. **Fresh options**: Check your fridge for fruits, veggies, cheese, or leftovers.\n3. **Quick meals**: Consider making a sandwich, toast, or a bowl of oatmeal.\n4. **Order in**: If you're short on time,", 'function_call': None}, 'finish_reason': 'stop'}]}
+2024-07-25 22:23:24 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:23:24 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:23:24 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:23:24 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:23:24 - llama.core.llama - DEBUG - llama - api_request_json:  {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:23:24 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:23:24 - llama.core.llama - INFO - llama - Updated configuration: {'messages': [{'role': 'user', 'content': 'I am so hungry, what should I eat?'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:23:24 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:23:24 - llama.core.llama - DEBUG - llama - User message: I am so hungry, what should I eat?
+2024-07-25 22:23:24 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'I am so hungry, what should I eat?'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:23:24 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:23:30 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 657
+2024-07-25 22:23:30 - llama.core.llama - INFO - llama - Received response: {'created': 1721960610, 'model': 'llama3.1-70b', 'usage': {'prompt_tokens': 71, 'completion_tokens': 100, 'total_tokens': 171}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "Deciding what to eat can be tricky when you're hungry. Here are a few questions to help narrow down some options:\n\n1. Do you have any dietary restrictions or preferences (e.g. vegetarian, gluten-free)?\n2. What type of cuisine are you in the mood for (e.g. Italian, Mexican, Asian)?\n3. Do you have any ingredients or leftovers at home that you'd like to use up?\n4. How much time do you have to prepare a meal?\n\nLet me", 'function_call': None}, 'finish_reason': 'max_token'}]}
+2024-07-25 22:25:16 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:25:16 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:25:16 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:25:16 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:25:16 - llama.core.llama - DEBUG - llama - api_request_json:  {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:25:16 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:25:16 - llama.core.llama - INFO - llama - Updated configuration: {'messages': [{'role': 'user', 'content': 'Coding Question: Square of a Number'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:25:16 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:25:16 - llama.core.llama - DEBUG - llama - User message: Coding Question: Square of a Number
+2024-07-25 22:25:16 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'Coding Question: Square of a Number'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:25:16 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:25:23 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 697
+2024-07-25 22:25:23 - llama.core.llama - INFO - llama - Received response: {'created': 1721960723, 'model': 'llama3.1-70b', 'usage': {'prompt_tokens': 69, 'completion_tokens': 100, 'total_tokens': 169}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '**Square of a Number**\n=======================\n\n**Problem Statement**\n--------------------\n\nWrite a function that takes an integer as input and returns its square.\n\n**Example Use Cases**\n--------------------\n\n* `square(4)` returns `16`\n* `square(-3)` returns `9`\n* `square(0)` returns `0`\n\n**Solution**\n------------\n\nHere is a simple and efficient solution in Python:\n```python\ndef square(n: int) -> int:\n    """\n    Returns the square of', 'function_call': None}, 'finish_reason': 'max_token'}]}
+2024-07-25 22:35:40 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:35:40 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:35:40 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:35:40 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:35:40 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:35:40 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "Coding Question: Square of a Number"
+        }
+    ],
+    "model": "llama3.1-70b",
+    "stream": false,
+    "function_call": "",
+    "max_token": 500,
+    "temperature": 0.1,
+    "top_p": 1.0,
+    "frequency_penalty": 1.0,
+    "functions": []
+}
+2024-07-25 22:35:40 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:35:40 - llama.core.llama - DEBUG - llama - User message: Coding Question: Square of a Number
+2024-07-25 22:35:40 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'Coding Question: Square of a Number'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:35:40 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:35:51 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 662
+2024-07-25 22:35:51 - llama.core.llama - ERROR - llama - Error executing API request: 'Response' object is not subscriptable
+2024-07-25 22:36:51 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:36:51 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:36:51 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:36:51 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:36:51 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:36:51 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "Coding Question: Square of a Number"
+        }
+    ],
+    "model": "llama3.1-70b",
+    "stream": false,
+    "function_call": "",
+    "max_token": 500,
+    "temperature": 0.1,
+    "top_p": 1.0,
+    "frequency_penalty": 1.0,
+    "functions": []
+}
+2024-07-25 22:36:51 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:36:51 - llama.core.llama - DEBUG - llama - User message: Coding Question: Square of a Number
+2024-07-25 22:36:51 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'Coding Question: Square of a Number'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:36:51 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:36:54 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 697
+2024-07-25 22:36:54 - llama.core.llama - ERROR - llama - Error executing API request: 'Response' object is not subscriptable
+2024-07-25 22:37:42 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:37:42 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:37:42 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:37:42 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:37:42 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:37:42 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "Coding Question: Square of a Number"
+        }
+    ],
+    "model": "llama3.1-70b",
+    "stream": false,
+    "function_call": "",
+    "max_token": 500,
+    "temperature": 0.1,
+    "top_p": 1.0,
+    "frequency_penalty": 1.0,
+    "functions": []
+}
+2024-07-25 22:37:42 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:37:42 - llama.core.llama - DEBUG - llama - User message: Coding Question: Square of a Number
+2024-07-25 22:37:42 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'Coding Question: Square of a Number'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:37:42 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:37:54 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 662
+2024-07-25 22:37:54 - llama.core.llama - ERROR - llama - Error executing API request: 'Response' object is not subscriptable
+2024-07-25 22:38:37 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:38:37 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:38:37 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:38:37 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:38:37 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:38:37 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "Coding Question: Square of a Number"
+        }
+    ],
+    "model": "llama3.1-70b",
+    "stream": false,
+    "function_call": "",
+    "max_token": 500,
+    "temperature": 0.1,
+    "top_p": 1.0,
+    "frequency_penalty": 1.0,
+    "functions": []
+}
+2024-07-25 22:38:37 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:38:37 - llama.core.llama - DEBUG - llama - User message: Coding Question: Square of a Number
+2024-07-25 22:38:37 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'Coding Question: Square of a Number'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:38:37 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:38:42 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 662
+2024-07-25 22:38:42 - llama.core.llama - ERROR - llama - Error executing API request: 'Response' object is not subscriptable
+2024-07-25 22:39:04 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:39:04 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:39:04 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:39:04 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:39:04 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:39:04 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "Coding Question: Square of a Number"
+        }
+    ],
+    "model": "llama3.1-70b",
+    "stream": false,
+    "function_call": "",
+    "max_token": 500,
+    "temperature": 0.1,
+    "top_p": 1.0,
+    "frequency_penalty": 1.0,
+    "functions": []
+}
+2024-07-25 22:39:04 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:39:04 - llama.core.llama - DEBUG - llama - User message: Coding Question: Square of a Number
+2024-07-25 22:39:04 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'Coding Question: Square of a Number'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:39:04 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:39:08 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 697
+2024-07-25 22:39:08 - llama.core.llama - ERROR - llama - Error executing API request: 'NoneType' object has no attribute 'json'
+2024-07-25 22:39:55 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:39:55 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:39:55 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:39:55 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:39:55 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:39:55 - llama.core.llama - INFO - llama - Updated configuration:
+{'messages': [{'role': 'user', 'content': 'Coding Question: Square of a Number'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:39:55 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:39:55 - llama.core.llama - DEBUG - llama - User message: Coding Question: Square of a Number
+2024-07-25 22:39:55 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'Coding Question: Square of a Number'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:39:55 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:40:00 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 697
+2024-07-25 22:40:00 - llama.core.llama - ERROR - llama - Error executing API request: 'NoneType' object has no attribute 'json'
+2024-07-25 22:40:59 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:40:59 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:40:59 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:40:59 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:40:59 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:40:59 - llama.core.llama - INFO - llama - Updated configuration:
+{'messages': [{'role': 'user', 'content': 'Coding Question: Square of a Number'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:40:59 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:40:59 - llama.core.llama - DEBUG - llama - User message: Coding Question: Square of a Number
+2024-07-25 22:40:59 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'Coding Question: Square of a Number'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:40:59 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:41:05 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 724
+2024-07-25 22:45:09 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:45:09 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:45:09 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:45:09 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:45:09 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:45:09 - llama.core.llama - INFO - llama - Updated configuration:
+{'messages': [{'role': 'user', 'content': 'show me a bubble sort algorithm'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:45:09 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:45:09 - llama.core.llama - DEBUG - llama - User message: show me a bubble sort algorithm
+2024-07-25 22:45:09 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'show me a bubble sort algorithm'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:45:09 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:45:14 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 734
+2024-07-25 22:45:14 - llama.core.llama - ERROR - llama - Error executing API request: 'Response' object is not subscriptable
+2024-07-25 22:46:55 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:46:55 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:46:55 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:46:55 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:46:55 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:46:55 - llama.core.llama - INFO - llama - Updated configuration:
+{'messages': [{'role': 'user', 'content': 'show me a bubble sort algorithm'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:46:55 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:46:55 - llama.core.llama - DEBUG - llama - User message: show me a bubble sort algorithm
+2024-07-25 22:46:55 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'show me a bubble sort algorithm'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:46:55 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:46:59 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 752
+2024-07-25 22:48:29 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:48:29 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:48:29 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:48:29 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:48:29 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:48:29 - llama.core.llama - INFO - llama - Updated configuration:
+{'messages': [{'role': 'user', 'content': 'show me a bubble sort algorithm'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:48:29 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:48:29 - llama.core.llama - DEBUG - llama - User message: show me a bubble sort algorithm
+2024-07-25 22:48:29 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'show me a bubble sort algorithm'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:48:29 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:48:33 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 738
+2024-07-25 22:48:33 - llama.core.llama - INFO - llama - Received response: {
+    "messages": [
+        {
+            "role": "user",
+            "content": "show me a bubble sort algorithm"
+        }
+    ],
+    "model": "llama3.1-70b",
+    "stream": false,
+    "function_call": "",
+    "max_token": 500,
+    "temperature": 0.1,
+    "top_p": 1.0,
+    "frequency_penalty": 1.0,
+    "functions": []
+}
+2024-07-25 22:49:54 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:49:54 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:49:54 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:49:54 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:49:54 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:49:54 - llama.core.llama - INFO - llama - Updated configuration:
+{'messages': [{'role': 'user', 'content': 'show me a bubble sort algorithm'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:49:54 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:49:54 - llama.core.llama - DEBUG - llama - User message: show me a bubble sort algorithm
+2024-07-25 22:49:54 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'show me a bubble sort algorithm'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:49:54 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:49:57 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 741
+2024-07-25 22:49:57 - llama.core.llama - INFO - llama - Received response: <Response [200]>
+2024-07-25 22:50:56 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:50:56 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:50:56 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:50:56 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:50:56 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:50:56 - llama.core.llama - INFO - llama - Updated configuration:
+{'messages': [{'role': 'user', 'content': 'show me a bubble sort algorithm'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:50:56 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:50:56 - llama.core.llama - DEBUG - llama - User message: show me a bubble sort algorithm
+2024-07-25 22:50:56 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'show me a bubble sort algorithm'}], 'model': 'llama3.1-70b', 'stream': False, 'function_call': '', 'max_token': 500, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:50:56 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:51:04 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 752
+2024-07-25 22:51:04 - llama.core.llama - INFO - llama - Received response: {'created': 1721962264, 'model': 'llama3.1-70b', 'usage': {'prompt_tokens': 68, 'completion_tokens': 100, 'total_tokens': 168}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '**Bubble Sort Algorithm**\n=========================\n\n**Overview**\n------------\n\nBubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.\n\n**Code**\n------\n\n### Python Implementation\n```python\ndef bubble_sort(arr):\n    """\n    Sorts an array using the bubble sort algorithm.\n\n    Args:\n        arr (list): The input array to be sorted.', 'function_call': None}, 'finish_reason': 'max_token'}]}
+2024-07-25 22:55:27 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:55:27 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:55:27 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:55:27 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:55:27 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:55:27 - llama.core.llama - INFO - llama - Updated configuration:
+{'messages': [{'role': 'user', 'content': 'show me a bubble sort algorithm'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:55:27 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:55:27 - llama.core.llama - DEBUG - llama - User message: show me a bubble sort algorithm
+2024-07-25 22:55:27 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'show me a bubble sort algorithm'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:55:27 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:55:34 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 720
+2024-07-25 22:55:34 - llama.core.llama - INFO - llama - Received response: 
+{'created': 1721962534, 'model': 'llama3.1-405b', 'usage': {'prompt_tokens': 68, 'completion_tokens': 100, 'total_tokens': 168}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '**Bubble Sort Algorithm**\n=========================\n\nBubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.\n\n**Code**\n--------\n\nHere is an example implementation of the bubble sort algorithm in Python:\n```python\ndef bubble_sort(arr):\n    n = len(arr)\n    for i in range(n-1):\n        for j in range(n-i-1):', 'function_call': None}, 'finish_reason': 'max_token'}]}
+2024-07-25 22:56:40 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:56:40 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:56:40 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:56:40 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:56:40 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:56:40 - llama.core.llama - INFO - llama - Updated configuration:
+{'messages': [{'role': 'user', 'content': 'show me a bubble sort algorithm'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:56:40 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:56:40 - llama.core.llama - DEBUG - llama - User message: show me a bubble sort algorithm
+2024-07-25 22:56:40 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'show me a bubble sort algorithm'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:56:40 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:56:45 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 720
+2024-07-25 22:56:45 - llama.core.llama - INFO - llama - Received response: 
+{'created': 1721962605, 'model': 'llama3.1-405b', 'usage': {'prompt_tokens': 68, 'completion_tokens': 100, 'total_tokens': 168}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '**Bubble Sort Algorithm**\n=========================\n\nBubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.\n\n**Code**\n--------\n\nHere is an example implementation of the bubble sort algorithm in Python:\n```python\ndef bubble_sort(arr):\n    n = len(arr)\n    for i in range(n-1):\n        for j in range(n-i-1):', 'function_call': None}, 'finish_reason': 'max_token'}]}
+2024-07-25 22:57:58 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:57:58 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:57:58 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:57:58 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:57:58 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:57:58 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "show me a bubble sort algorithm"
+        }
+    ],
+    "model": "llama3.1-405b",
+    "stream": false,
+    "function_call": "",
+    "max_token": 2000,
+    "temperature": 0.1,
+    "top_p": 1.0,
+    "frequency_penalty": 1.0,
+    "functions": []
+}
+2024-07-25 22:57:58 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:57:58 - llama.core.llama - DEBUG - llama - User message: show me a bubble sort algorithm
+2024-07-25 22:57:58 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'show me a bubble sort algorithm'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:57:58 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:58:03 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 720
+2024-07-25 22:58:03 - llama.core.llama - INFO - llama - Received response: 
+{'created': 1721962683, 'model': 'llama3.1-405b', 'usage': {'prompt_tokens': 68, 'completion_tokens': 100, 'total_tokens': 168}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '**Bubble Sort Algorithm**\n=========================\n\nBubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.\n\n**Code**\n--------\n\nHere is an example implementation of the bubble sort algorithm in Python:\n```python\ndef bubble_sort(arr):\n    n = len(arr)\n    for i in range(n-1):\n        for j in range(n-i-1):', 'function_call': None}, 'finish_reason': 'max_token'}]}
+2024-07-25 22:59:01 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 22:59:01 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 22:59:01 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:59:01 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 22:59:01 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 22:59:01 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "show me a merge sort algorithm"
+        }
+    ],
+    "model": "llama3.1-405b",
+    "stream": false,
+    "function_call": "",
+    "max_token": 2000,
+    "temperature": 0.1,
+    "top_p": 1.0,
+    "frequency_penalty": 1.0,
+    "functions": []
+}
+2024-07-25 22:59:01 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 22:59:01 - llama.core.llama - DEBUG - llama - User message: show me a merge sort algorithm
+2024-07-25 22:59:01 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'show me a merge sort algorithm'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 22:59:01 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 22:59:07 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 738
+2024-07-25 22:59:07 - llama.core.llama - INFO - llama - Received response: 
+{'created': 1721962746, 'model': 'llama3.1-405b', 'usage': {'prompt_tokens': 68, 'completion_tokens': 100, 'total_tokens': 168}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '**Merge Sort Algorithm**\n=========================\n\nMerge sort is a divide-and-conquer algorithm that splits an input array into two halves, recursively sorts each half, and then merges the sorted halves.\n\n**Code**\n--------\n\nHere is a Python implementation of the merge sort algorithm:\n```python\ndef merge_sort(arr):\n    """\n    Sorts an array using the merge sort algorithm.\n\n    Args:\n        arr (list): The input array to be sorted.\n\n    Returns:\n        list: The sorted array.', 'function_call': None}, 'finish_reason': 'max_token'}]}
+2024-07-25 23:01:21 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 23:01:21 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 23:01:21 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 23:01:21 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 23:01:21 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 23:01:21 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "create a todo list to become frontend developer and gettting a job"
+        }
+    ],
+    "model": "llama3.1-405b",
+    "stream": false,
+    "function_call": "",
+    "max_token": 2000,
+    "temperature": 1,
+    "top_p": 1.0,
+    "frequency_penalty": 1.0,
+    "functions": []
+}
+2024-07-25 23:01:21 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 23:01:21 - llama.core.llama - DEBUG - llama - User message: create a todo list to become frontend developer and gettting a job
+2024-07-25 23:01:21 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'create a todo list to become frontend developer and gettting a job'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 0.1, 'top_p': 1.0, 'frequency_penalty': 1.0, 'functions': []}
+2024-07-25 23:01:21 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 23:01:29 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 643
+2024-07-25 23:01:29 - llama.core.llama - INFO - llama - Received response: 
+{'created': 1721962889, 'model': 'llama3.1-405b', 'usage': {'prompt_tokens': 76, 'completion_tokens': 100, 'total_tokens': 176}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Here is a comprehensive todo list to become a frontend developer and get a job:\n\n**Phase 1: Learning the Basics (1-3 months)**\n\n1. **HTML**:\n\t* Learn HTML5 syntax and structure\n\t* Understand semantic HTML and accessibility\n\t* Build simple web pages using HTML\n2. **CSS**:\n\t* Learn CSS3 syntax and selectors\n\t* Understand CSS preprocessors like Sass or Less\n\t* Build simple web pages using CSS\n3.', 'function_call': None}, 'finish_reason': 'stop'}]}
+2024-07-25 23:05:52 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 23:05:52 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 23:05:52 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 1, 'top_p': 1.0, 'frequency_penalty': 2.0, 'functions': []}
+2024-07-25 23:05:52 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 23:05:52 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 23:05:52 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "create a todo list to become frontend developer and gettting a job"
+        }
+    ],
+    "model": "llama3.1-405b",
+    "stream": false,
+    "function_call": "",
+    "max_token": 2000,
+    "temperature": 1,
+    "top_p": 1.0,
+    "frequency_penalty": 2.0,
+    "functions": []
+}
+2024-07-25 23:05:52 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 23:05:52 - llama.core.llama - DEBUG - llama - User message: create a todo list to become frontend developer and gettting a job
+2024-07-25 23:05:52 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'create a todo list to become frontend developer and gettting a job'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 1, 'top_p': 1.0, 'frequency_penalty': 2.0, 'functions': []}
+2024-07-25 23:05:52 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 23:06:03 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 757
+2024-07-25 23:06:03 - llama.core.llama - INFO - llama - Received response: 
+{'created': 1721963163, 'model': 'llama3.1-405b', 'usage': {'prompt_tokens': 76, 'completion_tokens': 103, 'total_tokens': 179}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Here is an structured To-Do List for becoming  Frontend Developer:\n\n**Phase 1: Learning the Basics (approx time:** weeks)**\n\n\n\nRevised Learn about.\n\n\n\n Familiarize yourself with HTML, CSS & JavaScript basics but   | Reinforce understanding regarding topics following materialweb Tierguid Article فارس HTML Dog Web HypertextApplication technology Apps Script Statement Languagekinci Horovitz MDNWeb Docs pathway learningChuck Smith Tutorial Ude Path leverTechWith Guide nowava    Lin Gary Completed jam Format', 'function_call': None}, 'finish_reason': 'max_token'}]}
+2024-07-25 23:07:59 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 23:07:59 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 23:07:59 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 0.1, 'functions': []}
+2024-07-25 23:07:59 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 23:07:59 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 23:07:59 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "create a todo list to become frontend developer and gettting a job"
+        }
+    ],
+    "model": "llama3.1-405b",
+    "stream": false,
+    "function_call": "",
+    "max_token": 2000,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 0.1,
+    "functions": []
+}
+2024-07-25 23:07:59 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 23:07:59 - llama.core.llama - DEBUG - llama - User message: create a todo list to become frontend developer and gettting a job
+2024-07-25 23:07:59 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'create a todo list to become frontend developer and gettting a job'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 0.1, 'functions': []}
+2024-07-25 23:07:59 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 23:08:04 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 267
+2024-07-25 23:08:04 - llama.core.llama - INFO - llama - Received response: 
+{'created': 1721963284, 'model': 'llama3.1-405b', 'usage': {'prompt_tokens': 76, 'completion_tokens': 8, 'total_tokens': 84}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'You are a helpful and concise assistant.', 'function_call': None}, 'finish_reason': 'stop'}]}
+2024-07-25 23:08:32 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 23:08:32 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 23:08:32 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': 'Extract the desired information from the following passage.:\n\nHi!'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 3, 'top_p': 6, 'frequency_penalty': 4, 'functions': []}
+2024-07-25 23:08:32 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 23:08:32 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 23:08:32 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "create a todo list to become frontend developer and gettting a job"
+        }
+    ],
+    "model": "llama3.1-405b",
+    "stream": false,
+    "function_call": "",
+    "max_token": 2000,
+    "temperature": 3,
+    "top_p": 6,
+    "frequency_penalty": 4,
+    "functions": []
+}
+2024-07-25 23:08:32 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 23:08:32 - llama.core.llama - DEBUG - llama - User message: create a todo list to become frontend developer and gettting a job
+2024-07-25 23:08:32 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'create a todo list to become frontend developer and gettting a job'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 3, 'top_p': 6, 'frequency_penalty': 4, 'functions': []}
+2024-07-25 23:08:32 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 23:08:33 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 400 165
+2024-07-25 23:08:33 - llama.core.llama - ERROR - llama - Error executing API request: POST 400 Failed to process your request. Please try again later. If you are processing a function, try using a larger model (70b) for better function formatting.
+2024-07-25 23:09:34 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 23:09:34 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 23:09:34 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': "Extract the main points from the following passage: 'Hi! My name is John and I am a software engineer. I love working with Python and developing web applications.'"}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 0.1, 'functions': []}
+2024-07-25 23:09:34 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 23:09:34 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 23:09:34 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "create a todo list to become frontend developer and gettting a job"
+        }
+    ],
+    "model": "llama3.1-405b",
+    "stream": false,
+    "function_call": "",
+    "max_token": 2000,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 0.1,
+    "functions": []
+}
+2024-07-25 23:09:34 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 23:09:34 - llama.core.llama - DEBUG - llama - User message: create a todo list to become frontend developer and gettting a job
+2024-07-25 23:09:34 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'create a todo list to become frontend developer and gettting a job'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 2000, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 0.1, 'functions': []}
+2024-07-25 23:09:34 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 23:09:38 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 267
+2024-07-25 23:09:38 - llama.core.llama - INFO - llama - Received response: 
+{'created': 1721963378, 'model': 'llama3.1-405b', 'usage': {'prompt_tokens': 76, 'completion_tokens': 8, 'total_tokens': 84}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'You are a helpful and concise assistant.', 'function_call': None}, 'finish_reason': 'stop'}]}
+2024-07-25 23:09:55 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 23:09:55 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 23:09:55 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': "Extract the main points from the following passage: 'Hi! My name is John and I am a software engineer. I love working with Python and developing web applications.'"}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-25 23:09:55 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 23:09:55 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 23:09:55 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "create a todo list to become frontend developer and gettting a job"
+        }
+    ],
+    "model": "llama3.1-405b",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-25 23:09:55 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 23:09:55 - llama.core.llama - DEBUG - llama - User message: create a todo list to become frontend developer and gettting a job
+2024-07-25 23:09:55 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'create a todo list to become frontend developer and gettting a job'}], 'model': 'llama3.1-405b', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-25 23:09:55 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 23:10:00 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 632
+2024-07-25 23:10:00 - llama.core.llama - INFO - llama - Received response: 
+{'created': 1721963400, 'model': 'llama3.1-405b', 'usage': {'prompt_tokens': 76, 'completion_tokens': 100, 'total_tokens': 176}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': 'Here is a comprehensive todo list to become a frontend developer and get a job:\n\n**Phase 1: Learning the Basics (3-6 months)**\n\n1. **HTML/CSS**:\n\t* Learn HTML5 and CSS3 fundamentals\n\t* Build small projects (e.g., a personal website, a to-do list app)\n\t* Understand semantic HTML, CSS selectors, and box model\n2. **JavaScript**:\n\t* Learn JavaScript basics (variables, data types, functions,', 'function_call': None}, 'finish_reason': 'stop'}]}
+2024-07-25 23:12:26 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 23:12:26 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 23:12:26 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': "Extract the main points from the following passage: 'Hi! My name is John and I am a software engineer. I love working with Python and developing web applications.'"}], 'model': 'falcon-40b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-25 23:12:26 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 23:12:26 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 23:12:26 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "create a todo list to become frontend developer and gettting a job"
+        }
+    ],
+    "model": "falcon-40b-instruct",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-25 23:12:26 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 23:12:26 - llama.core.llama - DEBUG - llama - User message: create a todo list to become frontend developer and gettting a job
+2024-07-25 23:12:26 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'create a todo list to become frontend developer and gettting a job'}], 'model': 'falcon-40b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-25 23:12:26 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 23:12:27 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 400 165
+2024-07-25 23:12:27 - llama.core.llama - ERROR - llama - Error executing API request: POST 400 Failed to process your request. Please try again later. If you are processing a function, try using a larger model (70b) for better function formatting.
+2024-07-25 23:15:28 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 23:15:28 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 23:15:28 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': "Extract the main points from the following passage: 'Hi! My name is John and I am a software engineer. I love working with Python and developing web applications.'"}], 'model': 'falcon-40b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-25 23:15:28 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 23:15:28 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 23:15:28 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "create a todo list to become frontend developer and gettting a job"
+        }
+    ],
+    "model": "falcon-40b-instruct",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-25 23:15:28 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 23:15:28 - llama.core.llama - DEBUG - llama - User message: create a todo list to become frontend developer and gettting a job
+2024-07-25 23:15:28 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'create a todo list to become frontend developer and gettting a job'}], 'model': 'falcon-40b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-25 23:15:28 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 23:15:30 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 400 165
+2024-07-25 23:15:30 - llama.core.llama - ERROR - llama - Error executing API request: POST 400 Failed to process your request. Please try again later. If you are processing a function, try using a larger model (70b) for better function formatting.
+2024-07-25 23:16:23 - asyncio - DEBUG - selector_events - Using selector: EpollSelector
+2024-07-25 23:16:23 - llama.core.llama - INFO - llama - Loaded configuration from: /home/ubuntu/yiming/jobs/internships/it-services-llc/week-two/ai_model_ven/src/llama/config/config.json
+2024-07-25 23:16:23 - llama.core.llama - DEBUG - llama - Configuration data: {'messages': [{'role': 'user', 'content': "Extract the main points from the following passage: 'Hi! My name is John and I am a software engineer. I love working with Python and developing web applications.'"}], 'model': 'mixtral-8x22b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-25 23:16:23 - llama.core.llama - DEBUG - llama - Initializing Llama object
+2024-07-25 23:16:23 - llama.core.llama - DEBUG - llama - Updating request configuration
+2024-07-25 23:16:23 - llama.core.llama - INFO - llama - Updated configuration:
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "create a todo list to become frontend developer and gettting a job"
+        }
+    ],
+    "model": "mixtral-8x22b-instruct",
+    "stream": false,
+    "function_call": "",
+    "max_token": 800,
+    "temperature": 0.01,
+    "top_p": 0.1,
+    "frequency_penalty": 1,
+    "functions": []
+}
+2024-07-25 23:16:23 - llama.core.llama - DEBUG - llama - Preparing to execute API request
+2024-07-25 23:16:23 - llama.core.llama - DEBUG - llama - User message: create a todo list to become frontend developer and gettting a job
+2024-07-25 23:16:23 - llama.core.llama - DEBUG - llama - Sending API request: {'messages': [{'role': 'user', 'content': 'create a todo list to become frontend developer and gettting a job'}], 'model': 'mixtral-8x22b-instruct', 'stream': False, 'function_call': '', 'max_token': 800, 'temperature': 0.01, 'top_p': 0.1, 'frequency_penalty': 1, 'functions': []}
+2024-07-25 23:16:23 - urllib3.connectionpool - DEBUG - connectionpool - Starting new HTTPS connection (1): api.llama-api.com:443
+2024-07-25 23:16:29 - urllib3.connectionpool - DEBUG - connectionpool - https://api.llama-api.com:443 "POST /chat/completions HTTP/11" 200 687
+2024-07-25 23:16:29 - llama.core.llama - INFO - llama - Received response: 
+{'created': 1721963789, 'model': 'mixtral-8x22b-instruct', 'usage': {'prompt_tokens': 22, 'completion_tokens': 89, 'total_tokens': 111}, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '1. Learn HTML, CSS, and JavaScript: These are the fundamental building blocks of frontend development.\n2. Build a portfolio: Create a portfolio of your work to showcase your skills to potential employers.\n3. Learn a frontend framework: Popular frameworks include React, Angular, and Vue.js.\n4. Learn version control: Familiarize yourself with version control systems like Git.\n5. Build projects: Apply your skills by building projects, such', 'function_call': None}, 'finish_reason': 'max_token'}]}

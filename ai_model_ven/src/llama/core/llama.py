@@ -42,6 +42,8 @@ class Llama:
     role = attr.ib(default="user")
     config_file_path = attr.ib(default='config.json')
     api_request_json = attr.ib(init=False)
+    response_json = attr.ib(default=None)
+    response_content = attr.ib(default=None)
 
     def __attrs_post_init__(self):
         """
@@ -50,7 +52,6 @@ class Llama:
         self.llama = LlamaAPI(self.api_key) if self.api_key else None
         self.api_request_json = self.load_request_config_json()
         logger.debug("Initializing Llama object")
-        logger.debug(f"api_request_json:  {self.api_request_json}")
         self.update_request_config()
 
 
@@ -89,7 +90,18 @@ class Llama:
         logger.debug("Updating request configuration")
         self.api_request_json["messages"][0]["role"] = self.role
         self.api_request_json["messages"][0]["content"] = self.user_message
-        logger.info(f"Updated configuration: {self.api_request_json}")
+        logger.info(f"Updated configuration:\n{json.dumps(self.api_request_json, indent=4)}")
+
+
+    def user_input(self, user_message):
+        """
+        Gets the user input from the console.
+
+        Returns:
+            str: The user input.
+        """
+        logger.debug("Getting user input")
+        return self.user_message
 
     def execute_request(self):
         """
@@ -104,10 +116,11 @@ class Llama:
                 logger.debug(f"User message: {self.user_message}")
 
                 logger.debug(f"Sending API request: {self.api_request_json}")
-                response =  self.llama.run(self.api_request_json)
-                logger.info(f"Received response: { response.json()}")
+                self.response_json =  self.llama.run(self.api_request_json).json()
+                print(f"self.response_json.json(): {self.response_json}")
+                logger.info(f"Received response: \n{ self.response_json}")
                 
-                return response.json()
+                return self.response_json
             else:
                 logger.error("LlamaAPI instance not initialized.")
                 return None

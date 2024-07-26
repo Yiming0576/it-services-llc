@@ -4,7 +4,7 @@ import sys
 from llama.core.llama import Llama
 # from llama.log.root_log import setup_logging
 import logging
-
+import src.utilities.llama_driver as llama_driver
 # # Call the setup function to configure logging
 # setup_logging()
 
@@ -50,22 +50,11 @@ def main()-> None:
         case 8:
             print("You can become a mobile app developer")
         case 9:
-            print("You can become a mobile app developer")
+            llama_driver()
         case _:
             print("The language doesn't matter, what matters is solving problems.")
 
 # Example usage:
-if __name__ == "__main__":
-    # Accessing the API key
-    api_key = os.getenv('LLAMA_API_KEY')
+if __name__ == "__main__":   
 
-    if api_key is None:
-        logger.error("API_KEY environment variable not set")
-        sys.exit(1)  # Exit the program if API_KEY is not set
-
-    # Create an instance of LlamaAPI
-    api_client = Llama("I am so hungry, what should I eat?")
-
-    # Execute the API request
-    response =  api_client.execute_request()
-    print(f"Response: {response}")
+    main()

@@ -1,15 +1,13 @@
 {
   "messages": [
-    {"role": "user", "content": "Extract the desired information from the following passage.:\n\nHi!"}
+    {"role": "user", "content": "Extract the main points from the following passage: 'Hi! My name is John and I am a software engineer. I love working with Python and developing web applications.'"}
   ],
-  "model": "llama3.1-70b",
+  "model": "mixtral-8x22b-instruct",
   "stream": false,
   "function_call": "",
-  "max_token": 500,
-  "temperature": 0.1,
-  "top_p": 1.0,
-  "frequency_penalty": 1.0,
+  "max_token": 800,
+  "temperature": 0.01,
+  "top_p": 0.1,
+  "frequency_penalty": 1,
   "functions": []
-
 }
-
