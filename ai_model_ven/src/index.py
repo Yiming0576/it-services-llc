@@ -15,16 +15,18 @@ logger = logging.getLogger(__name__)
 def main()-> None:
 
     model = int(input("What AI model would you like to know more about?\n"
-                " << Claude (1) >>\n"
-                " << Google Gemini (formerly Bard) (2) >>\n"
-                " << Microsoft Copilot (3) >>\n"
-                " << Perplexity (4) >>\n"
-                " << ChatSonic (5) >>\n"
-                " << OpenAI ChatGPT (6) >>\n"
-                " << Character.AI (7) >>\n"
-                " << xAI Grok (8) >>\n"
-                " << Meta AI (LLAMA) (9) >>\n"
-                "Enter the corresponding number: "))
+                " << Exit                           (0) >>\n"
+                " << Claude                         (1) >>\n"
+                " << Google Gemini (formerly Bard)  (2) >>\n"
+                " << Microsoft Copilot              (3) >>\n"
+                " << Perplexity                     (4) >>\n"
+                " << ChatSonic                      (5) >>\n"
+                " << OpenAI ChatGPT                 (6) >>\n"
+                " << Character.AI                   (7) >>\n"
+                " << xAI Grok                       (8) >>\n"
+                " << Meta AI (LLAMA)                (9) >>\n"
+                " << Other                          (10) >>\n"
+                " << Enter the corresponding number: "))
 
     match model:
         case 1:

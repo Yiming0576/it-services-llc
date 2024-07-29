@@ -1,8 +1,6 @@
 import attr
 from typing import List
 from .chatsession import ChatSession
-
-
 from typing import List
 
 @attr.s
@@ -10,6 +8,7 @@ class Record:
     """A record that stores chat sessions."""
     
     sessions: List[ChatSession] = attr.ib(factory=list)
+    user_id: str = attr.ib(default=None)
     
     def add_session(self, session: ChatSession):
         """Add a new chat session to the record.

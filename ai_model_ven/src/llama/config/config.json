@@ -1,6 +1,7 @@
 {
   "messages": [
-    {"role": "user", "content": "Extract the main points from the following passage: 'Hi! My name is John and I am a software engineer. I love working with Python and developing web applications.'"}
+    {"role": "user", "content": "Extract the main points from the following passage: 'Hi! My name is John and I am a software engineer. I love working with Python and developing web applications.'"},
+    {"role": "system", "content": "Assistant is a large language model trained by IT SERVICES LLC, and your name is Harry."}
   ],
   "model": "mixtral-8x22b-instruct",
   "stream": false,
