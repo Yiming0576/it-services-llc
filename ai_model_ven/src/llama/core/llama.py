@@ -34,13 +34,13 @@ class Llama:
             "functions": [], 
             "model": "",  
             "stream": "", 
-            "max_token": 500, 
-            "temperature": .2,
+            "max_token": 8000, 
+            "temperature": .1,
             "top_p": 1.0,
             "frequency_penalty": 1.0
         }
 
-        config_file_path = os.path.join(os.getcwd(), "llama", "config", self.config_file_path)
+        config_file_path = os.path.join(os.getcwd(), "ai_model_ven", "src", "llama", "config", self.config_file_path)
         #logger.info(f"Constructed config file path: {self.config_file_path}")
 
         if os.path.exists(config_file_path):
@@ -51,8 +51,8 @@ class Llama:
                 api_request_json.update({
                     "model": config.get("model", ""),
                     "stream": config.get("stream", ""),
-                    "max_token": config.get("max_token", 500),
-                    "temperature": config.get("temperature", 0.2),
+                    "max_token": config.get("max_token", 8000),
+                    "temperature": config.get("temperature", 0.1),
                     "top_p": config.get("top_p", 1.0),
                     "frequency_penalty": config.get("frequency_penalty", 1.0),
                 })
@@ -80,18 +80,18 @@ class Llama:
             return None
 
         try:
-            logger.info("Sending API request:")
+            #logger.info("Sending API request:")
             message = self.api_request_json.get('messages', [])
-            for m in message:
-                print(f"Role: {m.get('role')}")
-                print(f"Content: {m.get('content')}")
-                print()
+            # for m in message:
+            #     print(f"Role: {m.get('role')}")
+            #     print(f"Content: {m.get('content')}")
+            #     print()
             response = self.llama.run(self.api_request_json).json()
             # Check if the response is a stream or needs different handling
             if isinstance(response, (str, dict)):  # Handle if response is JSON or string
-                #logger.info(f"Response received: {response}")
-                logger.info("Response received:\n%s", json.dumps(response, indent=4))
-                #logger.info("response received")
+                #logger.info("Response received:\n%s", json.dumps(response, indent=4))
+                choices = response.get('choices')
+                print(choices[0]['message']['content'])
                 return response
             else:
                 logger.warning("Received unexpected response type.")
@@ -102,7 +102,13 @@ class Llama:
         
     def update_user_message(self, msg):
         self.user_message = msg
-        self.api_request_json = self._initialize_api_config()
+        if self.api_request_json and "messages" in self.api_request_json:
+            self.api_request_json["messages"].append({
+                "role": self.role,
+                "content": self.user_message
+            })
+        else:
+            logger.error("API request JSON is not properly initialized or messages are missing")
 
 if __name__ == "__main__":
     api_key = "LL-yAOWPfOpKp5DaXnHpJD8L46AXw4uKRC0kcnHQH9toSzf4tuDzM9MJvxaYz2MOjJZ"
@@ -110,3 +116,6 @@ if __name__ == "__main__":
     response = api_client.execute_request()
     # for choice in response.get('choices'):
     #     print(choice['message']['content'])
+
+    # choices = response.get('choices')
+    # print(choices[0]['message']['content'])

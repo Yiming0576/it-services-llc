@@ -7,7 +7,7 @@ from llama.core.llama import Llama
 # Basic configuration for logger
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-logger.info("Logger initialized.")  # Example log message
+#logger.info("Logger initialized.")  # Example log message
 
 def main():
     if api_key is None:
@@ -26,7 +26,7 @@ def main():
 
         if response:
             response_json = json.dumps(response, indent=2)
-            print(response_json)
+            #print(response_json)
         else:
             logger.error("No response from Llama API")
 
