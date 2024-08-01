@@ -5,7 +5,7 @@
   "model": "llama3.1-70b",
   "stream": false,
   "function_call": "",
-  "max_token": 8000,
+  "max_token": 8,
   "temperature": 0.1,
   "top_p": 1.0,
   "frequency_penalty": 1.0,

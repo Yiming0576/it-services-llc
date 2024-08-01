@@ -14,6 +14,7 @@ class Llama:
     user_message = attr.ib()
     api_key = attr.ib(default=os.getenv('LLAMA_API_KEY'))
     llama = attr.ib(init=False)
+    context = attr.ib(default=None)
     role = attr.ib(default="user")
     config_file_path = attr.ib(default='config.json')
     api_request_json = attr.ib(init=False)
@@ -22,6 +23,8 @@ class Llama:
         self.llama = LlamaAPI(self.api_key) if self.api_key else None
         logger.debug(f"LlamaAPI instance: {self.llama}")
         self.api_request_json = self._initialize_api_config()
+        if self.context:
+            self.api_request_json['messages'].extend(self.context)
 
     def _initialize_api_config(self):
         api_request_json = {
@@ -73,6 +76,14 @@ class Llama:
             return None
 
         return api_request_json
+
+
+    def add_message(self, role="user"):
+        self.api_request_json['messages'].append({
+            "role": role,
+            "content": self.user_message
+        })
+
 
     def execute_request(self):
         if not self.llama:
